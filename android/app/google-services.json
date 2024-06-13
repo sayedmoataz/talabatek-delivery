@@ -1,0 +1,179 @@
+{
+  "project_info": {
+    "project_number": "119008136494",
+    "project_id": "talabatek-4bea7",
+    "storage_bucket": "talabatek-4bea7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119008136494:android:3a69a33d8d49415b95bebf",
+        "android_client_info": {
+          "package_name": "com.example.talabatek_restaurant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "119008136494-7b7hd36b2eg4t5ipno2fss7cbbnthi9b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_g1r60vkPJlbq0bGIeH939wYkZ8UmzMs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "119008136494-7b7hd36b2eg4t5ipno2fss7cbbnthi9b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119008136494:android:10ed895709030dd395bebf",
+        "android_client_info": {
+          "package_name": "com.example.talabatek_restaurant_printing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "119008136494-7b7hd36b2eg4t5ipno2fss7cbbnthi9b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_g1r60vkPJlbq0bGIeH939wYkZ8UmzMs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "119008136494-7b7hd36b2eg4t5ipno2fss7cbbnthi9b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119008136494:android:d3479b6112f5812295bebf",
+        "android_client_info": {
+          "package_name": "com.talabatek.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "119008136494-3a64rs8q7hcasak4sqt546ht4nsaophq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.talabatek.app",
+            "certificate_hash": "eccbfef7832b357620f418c29c5408b7673412f3"
+          }
+        },
+        {
+          "client_id": "119008136494-cee87pl0qfrlh67ae9ejniaj2u4hdsg9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.talabatek.app",
+            "certificate_hash": "d087f0616fb1139bc19edc18f549f3dd3a1c1eb1"
+          }
+        },
+        {
+          "client_id": "119008136494-j87gst47j36p944u52pj70o85rim51u9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.talabatek.app",
+            "certificate_hash": "858db0235b3e2f7ba12f1090cc547232c5b410d1"
+          }
+        },
+        {
+          "client_id": "119008136494-7b7hd36b2eg4t5ipno2fss7cbbnthi9b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_g1r60vkPJlbq0bGIeH939wYkZ8UmzMs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "119008136494-7b7hd36b2eg4t5ipno2fss7cbbnthi9b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119008136494:android:48d3c542fc7745de95bebf",
+        "android_client_info": {
+          "package_name": "com.talabatek.delivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "119008136494-7b7hd36b2eg4t5ipno2fss7cbbnthi9b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_g1r60vkPJlbq0bGIeH939wYkZ8UmzMs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "119008136494-7b7hd36b2eg4t5ipno2fss7cbbnthi9b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119008136494:android:b1ad1473c385ebed95bebf",
+        "android_client_info": {
+          "package_name": "com.talabatek.talabatek_restaurant_printing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "119008136494-7b7hd36b2eg4t5ipno2fss7cbbnthi9b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_g1r60vkPJlbq0bGIeH939wYkZ8UmzMs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "119008136494-7b7hd36b2eg4t5ipno2fss7cbbnthi9b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
