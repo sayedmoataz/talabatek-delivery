@@ -34,7 +34,7 @@ class CommandWidget extends StatelessWidget {
   final int? orderId;
   final OrderModelItem? results;
   final String? screen;
- /* void _makePhoneCall(String phoneNumber) async {
+  /* void _makePhoneCall(String phoneNumber) async {
     final Uri launchUri = Uri(
       scheme: 'tel',
       path: phoneNumber,
@@ -95,13 +95,12 @@ class CommandWidget extends StatelessWidget {
                       children: [
                         IconButton(
                             onPressed: () {
-                             // _makePhoneCall(phone!);
+                              // _makePhoneCall(phone!);
                               Clipboard.setData(ClipboardData(text: phone!))
                                   .then((_) {
                                 ScaffoldMessenger.of(context).showSnackBar(
                                     SnackBar(
-                                        content: Text(
-                                            "تم نسخ رقم الهاتف")));
+                                        content: Text("تم نسخ رقم الهاتف")));
                               });
                             },
                             icon: Icon(Icons.call)),
@@ -234,7 +233,7 @@ class CommandWidget extends StatelessWidget {
                   height: 5,
                 ),
                 Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  mainAxisAlignment: MainAxisAlignment.start,
                   children: [
                     IconButton(
                         onPressed: () {
@@ -253,22 +252,21 @@ class CommandWidget extends StatelessWidget {
                             : dropOffAddress!.substring(0, 30) + '...',
                         style: TextStyle(
                             fontWeight: FontWeight.bold, fontSize: 17)),
-                    IconButton(
-                        onPressed: () async {
-                        /*  await launch(
-                              'https://www.google.com/maps/search/?api=1&query=$location');*/
-                          Clipboard.setData(ClipboardData(text: dropOffAddress!))
-                              .then((_) {
-                            ScaffoldMessenger.of(context).showSnackBar(
-                                SnackBar(
-                                    content: Text(
-                                        "تم نسخ العنوان")));
-                          });
-                        },
-                        icon: Icon(
-                          Icons.location_on_outlined,
-                          color: AppCubit.get(context).primaryColor,
-                        ))
+                    // IconButton(
+                    //     onPressed: () async {
+                    //     await launchUrl(Uri.parse('https://www.google.com/maps/search/?api=1&query=$location'));
+                    //       // Clipboard.setData(ClipboardData(text: dropOffAddress!))
+                    //       //     .then((_) {
+                    //       //   ScaffoldMessenger.of(context).showSnackBar(
+                    //       //       SnackBar(
+                    //       //           content: Text(
+                    //       //               "تم نسخ العنوان")));
+                    //       // });
+                    //     },
+                    //     icon: Icon(
+                    //       Icons.location_on_outlined,
+                    //       color: AppCubit.get(context).primaryColor,
+                    //     ))
                   ],
                 ),
                 SizedBox(
@@ -561,7 +559,6 @@ class _OrderStatusWidgetState extends State<OrderStatusWidget> {
 }
 
 DateTime convertTimeFromStringIntoDateTimeObj(String date) {
-  DateFormat format =
-      DateFormat("EEEE, MMMM d, y 'at' hh:mm:ss a",  'en');
+  DateFormat format = DateFormat("EEEE, MMMM d, y 'at' hh:mm:ss a", 'en');
   return format.parse(date);
 }

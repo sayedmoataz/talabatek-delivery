@@ -26,23 +26,20 @@
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-	<key>NSCameraUsageDescription</key>
-	<string>Take Photo From Camera to update user image profile</string>
-	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<!-- <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
 	<string>Your location is required to get your address and shipping order to you  also you can disable it with no problem</string>
 	<key>NSLocationAlwaysUsageDescription</key>
 	<string>Your location is required to get your address and shipping order to you</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Your location is required to get your address and shipping order to you</string>
-	<key>NSMicrophoneUsageDescription </key>
-	<string>Used to capture audio for image picker plugin.</string>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Choose Photo From Gallery and your image profile</string>
+	<string>Your location is required to get your address and shipping order to you</string> -->
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<!-- <key>LSApplicationQueriesSchemes</key>
+	<array>
+	<string>open location url</string>
+	</array> -->
 	<key>UIBackgroundModes</key>
 	<array>
-		<string>bluetooth-peripheral</string>
 		<string>fetch</string>
 		<string>remote-notification</string>
 	</array>

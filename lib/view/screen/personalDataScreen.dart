@@ -98,7 +98,7 @@ class PersonalDataScreen extends StatelessWidget {
                 height: 5,
               ),
               CustomTextFiled(
-                  screenSize: screenSize, hintText: cubit.userModel!.email!),
+                  screenSize: screenSize, hintText: cubit.userModel!.email.toString()),
               SizedBox(
                 height: 10,
               ),
@@ -113,7 +113,7 @@ class PersonalDataScreen extends StatelessWidget {
                 height: 5,
               ),
               CustomTextFiled(
-                  screenSize: screenSize, hintText: cubit.userModel!.phone!),
+                  screenSize: screenSize, hintText: cubit.userModel!.phone ?? 'Not Added'),
               SizedBox(
                 height: 10,
               ),
